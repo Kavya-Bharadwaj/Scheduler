@@ -1,0 +1,26 @@
+- program should be able to create tasks
+- create a worker thread pool
+- 
+--------------------------------------------------------
+Program starts
+- create tasks
+	- what does a task look like?
+		- struct
+			- struct with one operator (char) and two operands (int)
+	- What tasks to support? 
+		- Addition 
+		- factorial
+- pool the tasks
+	- where?
+- create a worker thread pool
+	- how?
+	- how many threads?
+- start execution
+	- each thread picks a job from task list and executes it
+		- what does a task list look like?
+		- picking the task to be thread safe
+		- what do you mean by executing a task?
+- release worker thread pool
+	
+ 
+	
